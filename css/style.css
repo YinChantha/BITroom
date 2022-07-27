@@ -1,0 +1,285 @@
+body {
+  overflow-x: hidden;
+}
+
+.carousel-item {
+  height: 850px;
+}
+
+.carousel-image-1 {
+  background: url('../img/slide1\ copy.png');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-image-2 {
+  background: url('../img/slide2\ copy.png');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/slide3\ copy.png');
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+/* Services--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #ffc451;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box h4 a:hover {
+  color: #ffc451;
+}
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+/*--------------------------------------------------------------
+
+/* ................ */
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+.card-deck{
+  /* height: 80vh; */
+  margin-top: 4rem;
+  justify-content: center;
+}
+.img1{
+  height:40vh;
+}
+.img2{
+  height:40vh;
+}
+
+.view{
+  background-color: #000;
+  /* color: white; */
+}
+
+/*...................... Severy vath .................... */
+
+.clients {
+  padding-top: 20px;
+}
+.clients .swiper-slide img {
+  transition: 0.3s;
+}
+.project-image{
+  height: 210px;
+}
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.client-title {
+  text-align: center;
+}
+.client-hr {
+  width: 100px;
+}
+#start-project-button {
+  background-color: rgb(194, 194, 194);
+  width: 13rem;
+  height: 3.2rem;
+  border-radius: 1rem;
+}
+
+.testimonial-card{
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 3px 5px #888888;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+.testimonial-p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+/* .....................sereyvath section ...................  */
+
+/* * FAQ */ 
+.faq{
+    color: #fff;
+    background-color: #000;
+    margin-top: 4rem;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 4rem;
+    font-size: 10rem;
+    color : white;
+}
+
+.questions-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid #fff;
+}
+.question button{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.question p{
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+    color: #fff;
+}
+
+/*add this class when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}
+
+/* Partner */ 
+
+.partner{
+    margin-top: 4rem;
+}
+.partner img{
+    width: 28rem;
+    height: 6.4rem;
+}
+/* Footer */
+.footer{
+    margin-top: 4rem;
+    background-color: black !important;
+    }
+.footer p{
+
+    font-size: 0.8rem;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer input{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: 12rem;
+}
+.footer button{
+border-radius: 5rem;
+width: 4rem;
+height: 2.2rem;
+background-color: #ff3334;
+color: white;
+}
